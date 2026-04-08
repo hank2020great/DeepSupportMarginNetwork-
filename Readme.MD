@@ -55,3 +55,13 @@ python dsmn_commercial.py
 Upon completion, the engine generates `DSMN_Bank_Marketing_Predictions.csv`. 
 This file merges the algorithm's predictions with the **original, unscaled business features**. 
 Drop this CSV directly into **Tableau**, **PowerBI**, or **Excel** to visualize exactly which complex, long-tail customer segments the DSMN algorithm successfully salvaged compared to the global baseline.
+
+
+
+**Please cite the dataset origin and the modern Tabular DL context:**
+
+* **Dataset Origin:**
+  > Moro, S., Cortez, P., & Rita, P. (2014). *A Data-Driven Approach to Predict the Success of Bank Telemarketing.* Decision Support Systems, 62:22-31.
+  
+* **Modern Tabular Deep Learning Context (Why DSMN Matters):**
+  > Grinsztajn, L., Oyallon, E., & Varoquaux, G. (2022). *Why do tree-based models still outperform deep learning on typical tabular data?* Advances in Neural Information Processing Systems (NeurIPS), 35, 507-520.
